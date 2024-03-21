@@ -1,0 +1,231 @@
+header {
+  background-image: url(./423903912_1430332937565952_9107843049850327434_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: 0;
+}
+* {
+  font-family: 'poppins', sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin-left: 10px;
+}
+.hero-text {
+  text-align: center;
+}
+.hero-text h1 {
+  margin: 25px;
+}
+.hero-text p {
+  margin: 20px;
+}
+.hero-text .credit {
+  margin-bottom: 2.5cm;
+}
+header img {
+  max-width: 100%;
+}
+header .img {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+header .imgtwo {
+  display: none;
+}
+p {
+  padding: 1px;
+
+}
+header h1 {
+  font-size: 50px;
+}
+header {
+  margin-bottom: 30px;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  height: 1.2cm;
+}
+.flex-container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+main {
+  margin-bottom: 30px;
+}
+main h2 {
+  font-size: 35px;
+}
+main p {
+  padding-top: 5px;
+}
+.flex-container .flex-text {
+  width: 55%;
+}
+.flex-text h2 {
+  font-size: 30px;
+}
+main img {
+  max-width: 90%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.that-one-element {
+  display: flex;
+}
+.that-one-element p{
+  margin-left: 10px;
+}
+.brandtwo {
+  display: none;
+}
+@media (max-width: 576px) {
+  nav ul {
+    display: none;
+  }
+  nav .brand {
+    margin: 12px;
+  }
+  nav .brandtwo {
+    margin: 12px;
+  }
+  .brandtwo {
+    display: block;
+  }
+  .hero .boutton {
+    margin: 10px;
+  }
+  .hero button {
+    width: 100%;
+    height: 1.2cm;
+  }
+  header .img {
+    display: none;
+  }
+  header .imgtwo {
+    display: block;
+    margin: 10px;
+  }
+  header .imgtwo img {
+    width: 100%;
+  }
+  header img {
+  }
+  main .img {
+    margin-left: 40px;
+  }
+  .flex-container .flex-text {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
+  .flex-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+  .snipper-logo {
+    margin-left: 25px;
+    width: 20%;
+  }
+  .that-one-element {
+    display: block;
+  }
+  .that-one-element {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .brand {
+    margin: 12px;
+  }
+  .hero .boutton {
+    margin: 10px;
+  }
+  .hero button {
+    height: 1.2cm;
+  }
+  header .img {
+    display: none;
+  }
+  .signIn {
+    margin-top: 12px;
+  }
+  .searchIcon {
+    margin-top: 15px;
+  }
+  header .imgtwo {
+    display: block;
+    margin: 10px;
+  }
+  header .imgtwo img {
+    width: 100%;
+  }
+  header img {
+  }
+  main .img {
+    margin-left: 40px;
+  }
+  .flex-container .flex-text {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 25px;
+  }
+  .flex-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+  .snipper-logo {
+    margin-left: 25px;
+    width: 20%;
+  }
+  .that-one-element {
+    display: block;
+  }
+  .that-one-element {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+}
